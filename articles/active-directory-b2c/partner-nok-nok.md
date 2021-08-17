@@ -45,6 +45,7 @@ The following architecture diagram shows the implementation. Nok Nok is acting a
 |:------|:-----------|
 | 1. | User arrives at a login page. Users select sign-in/sign-up and enter the username |
 | 2. | Azure AD B2C redirects the user to the Nok Nok OIDC authentication provider. |
+## Follow steps 3a, 4a and 5a for authentications using mobile devices and follow Steps 3b,4b and 5b for authentications using desktop/PC or Mobile browsers.
 | 3a. | For mobile based authentications, Nok Nok either displays a QR code or sends a push notification request to the end user’s mobile device. |
 | 3b. | For Desktop/PC based login, Nok Nok redirects the end user to the web application login page to initiate a passwordless authentication prompt. |
 |4a. | The user scan’s the displayed QR code in their smartphone using Nok Nok app SDK or Nok Nok Passport app.|
